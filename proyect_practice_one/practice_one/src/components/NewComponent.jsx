@@ -20,6 +20,9 @@ export default function NewComponent() {
           <input type="search" onChange={(e) => handleChange(e)} />
         </nav>
       </form>
+      <div>
+        <p>commit 1</p>
+      </div>
     </div>
   );
 }
