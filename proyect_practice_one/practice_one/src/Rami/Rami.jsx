@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function h1() {
+export default function Card() {
   return (
     <div>
       <h1>Buenasssss</h1>
