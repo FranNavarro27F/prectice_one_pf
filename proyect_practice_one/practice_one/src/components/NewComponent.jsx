@@ -10,11 +10,16 @@ export default function NewComponent() {
   const handleChange = () => {
     dispatch(getProducts(product));
   };
+  const handlesubmit = () => {
+    dispatch(getProducts(product));
+  };
   return (
     <div>
-      <nav>
-        <input type="search" onChange={(e) => handleChange(e)} />
-      </nav>
+      <form action="" onSubmit={handlesubmit}>
+        <nav>
+          <input type="search" onChange={(e) => handleChange(e)} />
+        </nav>
+      </form>
     </div>
   );
 }
