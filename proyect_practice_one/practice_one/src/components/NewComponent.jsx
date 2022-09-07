@@ -22,6 +22,7 @@ export default function NewComponent() {
       </form>
       <div>
         <p>commit 1</p>
+        <p>commit 2</p>
       </div>
     </div>
   );
