@@ -8,6 +8,7 @@ export default function NavBar() {
           <li>1</li>
           <li>2</li>
           <li>3</li>
+           <span>holis, esto podria ser un conflicto</span>
 
         </ul>
       </nav>
