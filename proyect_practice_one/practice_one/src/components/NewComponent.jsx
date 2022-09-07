@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
+import getProducts from "actions";
 
 export default function NewComponent() {
   const dispatch = useDispatch();
