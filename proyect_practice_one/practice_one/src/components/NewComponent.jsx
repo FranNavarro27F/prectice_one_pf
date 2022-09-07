@@ -1,5 +1,19 @@
 import React from "react";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
 
 export default function NewComponent() {
-  return <div>a ver si mergea a main</div>;
+  const dispatch = useDispatch();
+  const [product, setProduct] = useState("");
+
+  const handleChange = () => {
+    dispatch(getProducts(product));
+  };
+  return (
+    <div>
+      <nav>
+        <input type="search" onChange={(e) => handleChange(e)} />
+      </nav>
+    </div>
+  );
 }
